@@ -1,0 +1,107 @@
+/* === Container of the whole NavBar === */
+header {
+    display: flex;
+    align-items : center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    color: var(--textColorBlue);
+    bottom: 0rem;
+}
+
+/* === right for margin === */
+nav a{
+    margin:0 2rem;
+    color: var(--textColorBlue);
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--textColorBlue);
+}
+/* === Button when the screen is small max of 1024 === */
+.OpenCloseButton {
+  display: none;
+}
+
+.headerUlRight{
+    display:flex;
+    justify-content: start;
+    position:relative;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.linkstyle:hover{
+    background-color: var(--textColorPink);
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px var(--textColorBlue);
+}
+
+/* === for small screen max 1024 === */
+@media only screen and (max-width: 1024px){
+    /* === style of button when it is in the small screen 1024 below === */
+    .OpenCloseButton{
+        display: block;
+        position: absolute;
+        right: 1rem;
+        cursor: pointer;
+        height:2rem;
+        width:2rem;
+    }
+
+    /* ===  style of menu when it is in the small screen 1024 below === */
+    .nav{
+        margin-top: 10;
+    }
+    .HeaderNavbar{
+        background-color: var(--backColorWhite);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .headerUlRight{
+        top:-100%;  /* ==== to hide menu when screen small === */
+        position: fixed;
+        left: 0;
+        right:0;
+        height: 0px;  /* ==== 0 height for closing purposes ==== */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: top 1s;
+        z-index: 10;
+        margin-top: 12rem;
+    }
+    .linkstyle{
+        margin-top: 1rem;
+    }
+    .linkstyle:hover{
+    background-color: var(--textColorPink);
+    width: 12rem;
+    height: 4rem;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px var(--textColorBlue);
+    }
+   
+    /* === to pull the menu to show in the screen === */
+    .active {
+        top: 0;
+
+    }
+}
+/* ^^^ For small screen ^^^ */

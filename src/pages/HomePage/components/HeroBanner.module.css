@@ -1,0 +1,203 @@
+
+@media only screen and (min-width: 1025px){
+
+    .parentContainerHero{
+        background-color: var(--backColorWhite);
+        width: 100%;
+        position: relative;
+        grid-template-columns: cover;
+        width: 100%;
+        height:20rem;
+        justify-content: center;
+        resize: both;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));    */
+       
+
+    }
+.gridcontainer {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));   
+    /* grid-template-columns: repeat(5, 1fr);    */
+    resize: both;
+    transition: grid-template-columns 0.5s ease-in-out;
+   
+}
+ 
+  
+.searchHeroButton{
+    cursor: pointer;
+    background-color: var(--textColorBlue);
+    outline: none;
+    height: 2rem;
+    color: var(--backColorWhite);
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+.searchHeroButton:hover{
+    cursor: pointer;
+    outline: none;
+    height: 2rem;
+    color: var(--backColorBlue);
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 1rem;
+    background-color: var(--textColorPink);
+    box-shadow: 4px 4px var(--backColorWhite);
+    background-color: var(--backColorWhite);
+    border: 5px solid var(--textColorBlue);
+    border-radius: 10px;
+}
+.searchHero{
+    width: 200px;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: 5px solid var(--textColorBlue);
+}
+
+.inputBtnContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+    margin-top: 20rem;
+  
+}
+
+@keyframes hero {
+    0%   {color:var(--textColorPink);  text-shadow:var(--backColorBlue); left:0px; top:0px;}
+    25%  {color:var(--backColorWhite);  text-shadow:var(--backColorBlue); left:0px; top:0px;}
+    50%  {color:var(--textColorPink);  text-shadow:var(--backColorBlue); left:0px; top:110px;}
+    75%  {color:var(--backColorWhite);  text-shadow:var(--backColorBlue); left:0px; top:110px;}
+    100% {color:var(--textColorBlue);  text-shadow:var(--backColorBlue); left:0px; top:0px;}
+  }
+
+.detailsContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    z-index: 10;
+    margin-top: 1rem;
+    animation-name: hero;
+    animation-duration: 20s;
+    font-size: 2.5rem;
+    color: var(--textColorBlue);
+    text-shadow: 0 0 20px var(--backColorWhite), 0 0 20px var(--backColorWhite);
+    
+}
+.textHero{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+ 
+}
+/* .Image {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .Image.visible {
+    opacity: 1;
+  } */
+
+}
+  
+@media only screen and (max-width: 1024px){
+    .parentContainerHero{
+        background-color: var(--backColorWhite);
+        width: 100%;
+        position: relative;
+        margin-left: 0.5rem;
+        resize: both;
+
+    }
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));   
+        /* grid-template-columns:  auto auto auto auto auto;  */
+        resize: both;
+        
+    }
+
+    
+    .searchHeroButton{
+        cursor: pointer;
+        background-color: var(--textColorBlue);
+        outline: none;
+        height: 2rem;
+        color: var(--backColorWhite);
+        width: 120px;
+        border-radius: 10px;
+        margin-left: 1rem;
+    }
+    
+    .searchHeroButton:hover{
+        cursor: pointer;
+        outline: none;
+        height: 2rem;
+        color: var(--backColorBlue);
+        width: 120px;
+        border-radius: 10px;
+        margin-left: 1rem;
+        background-color: var(--textColorPink);
+        box-shadow: 4px 4px var(--backColorWhite);
+        background-color: var(--backColorWhite);
+        border: 5px solid var(--textColorBlue);
+        border-radius: 10px;
+    }
+    .searchHero{
+        width: 200px;
+        height: 2rem;
+        border-radius: 0.5rem;
+        border: 5px solid var(--textColorBlue);
+    }
+    
+    .inputBtnContainer{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: absolute;
+        z-index: 10;
+        margin-top: 16rem;
+      
+    }
+   
+@keyframes hero {
+    0%   {color:var(--textColorPink);  text-shadow:var(--backColorBlue); left:0px; top:0px;}
+    25%  {color:var(--backColorWhite);  text-shadow:var(--backColorBlue); left:0px; top:0px;}
+    50%  {color:var(--textColorPink);  text-shadow:var(--backColorBlue); left:0px; top:110px;}
+    75%  {color:var(--backColorWhite);  text-shadow:var(--backColorBlue); left:0px; top:110px;}
+    100% {color:var(--textColorBlue);  text-shadow:var(--backColorBlue); left:0px; top:0px;}
+  }
+    
+    .detailsContainer{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        position: absolute;
+        align-items: center;
+        text-align: center;
+        z-index: 10;
+        margin-top: 5rem;
+        animation-name: hero;
+        animation-duration: 20s;
+        font-size: 1rem;
+        color: var(--textColorBlue);
+    text-shadow: 0 0 20px var(--backColorWhite), 0 0 20px var(--backColorWhite);
+        
+    }
+    
+    .textHero{
+        font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: 300;
+      font-style: normal;
+     
+    }
+}

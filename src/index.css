@@ -1,0 +1,20 @@
+/* ==== GLOBAL STYLING ===*/
+/* ===== import from google font url shown: https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200 1000;
+}
+
+:root {
+  --backColorBlue: rgb(18, 5, 253);
+  --textColorPink: #ff5757;
+  --backColorWhite: white;
+  --textColorBlue: #004aad;
+
+
+} 
