@@ -99,6 +99,77 @@
        max-height: 100%;
     
     }
+    /* ==== style for video play for event === */
+    .grandchildBody1RightMRA {
+        margin-top: 43rem; 
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .h1VideoTop{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--textColorBlue);
+        font-size: 1rem;
+
+    }
+
+    .pVideoTop{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        color: var(--textColorBlue);
+        font-size: 0.5rem;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .ticketbtn{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--textColorBlue);
+        font-size: 1rem;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+        background: transparent;
+        border: 1px solid var(--textColorBlue);
+        outline: none;
+        border-radius: 10px;      
+      }
+    .ticketbtn:hover{
+        background-color: var(--textColorPink);
+        cursor: pointer;
+    }
+    /* === Style to resize the video for event ==== */
+    .player-wrapper {
+        position: relative;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+      }
+    /* === Style to resize the video for event ==== */
+      .react-player {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      
+    
 }
 
 
@@ -204,6 +275,76 @@
        max-height: 100%;
     
     }
+    /* ==== style for video play for event === */
+    .grandchildBody1RightMRA {
+        margin-top: 43rem; 
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .h1VideoTop{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--textColorBlue);
+        font-size: 1rem;
+
+    }
+
+    .pVideoTop{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        color: var(--textColorBlue);
+        font-size: 0.5rem;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .ticketbtn{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--textColorBlue);
+        font-size: 1rem;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+        background: transparent;
+        border: 1px solid var(--textColorBlue);
+        outline: none;
+        border-radius: 10px;      
+      }
+    .ticketbtn:hover{
+        background-color: var(--textColorPink);
+        cursor: pointer;
+    }
+    /* === Style to resize the video for event ==== */
+    .player-wrapper {
+        position: relative;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+      }
+    /* === Style to resize the video for event ==== */
+      .react-player {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+   
 }
 
 
@@ -308,6 +449,76 @@
        max-height: 100%;
     
     }
+    /* ==== style for video play for event === */
+    .grandchildBody1RightMRA {
+        margin-top: 62rem; 
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .h1VideoTop{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--textColorBlue);
+        font-size: 1.5rem;
+
+    }
+
+    .pVideoTop{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        color: var(--textColorBlue);
+        font-size: 1rem;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .ticketbtn{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--textColorBlue);
+        font-size: 1.5rem;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+        background: transparent;
+        border: 1px solid var(--textColorBlue);
+        outline: none;
+        border-radius: 10px;      
+      }
+    .ticketbtn:hover{
+        background-color: var(--textColorPink);
+        cursor: pointer;
+    }
+    /* === Style to resize the video for event ==== */
+    .player-wrapper {
+        position: relative;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+      }
+    /* === Style to resize the video for event ==== */
+      .react-player {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+   
 }
 
 @media only screen and (min-width: 768px){
@@ -412,6 +623,78 @@
        max-height: 100%;
     
     }
+    /* ==== style for video play for event === */
+    .grandchildBody1RightMRA {
+        margin-top: 3rem; 
+        padding-left: 5rem;
+        padding-right: 5rem;
+       
+    }
+    .h1VideoTop{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--textColorBlue);
+        font-size: 2rem;
+
+    }
+
+    .pVideoTop{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        color: var(--textColorBlue);
+        font-size: 1rem;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .ticketbtn{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--textColorBlue);
+        font-size: 1.5rem;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+        background: transparent;
+        border: 1px solid var(--textColorBlue);
+        outline: none;
+        border-radius: 10px;      
+      }
+    .ticketbtn:hover{
+        background-color: var(--textColorPink);
+        cursor: pointer;
+    }
+    /* === Style to resize the video for event ==== */
+    .player-wrapper {
+        position: relative;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+      }
+    /* === Style to resize the video for event ==== */
+      .react-player {
+        position: absolute;
+        top: 0;
+        left: 0;
+       
+      }
+   
 }
 
 
@@ -517,6 +800,77 @@
        max-height: 100%;
     
     }
+    /* ==== style for video play for event === */
+    .grandchildBody1RightMRA {
+        margin-top: 5rem; 
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .h1VideoTop{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--textColorBlue);
+        font-size: 2.5rem;
+
+    }
+
+    .pVideoTop{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        color: var(--textColorBlue);
+        font-size: 1.5rem;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .ticketbtn{
+        position:relative;
+        justify-content: center;
+        align-items: center;
+        width:95%;
+        height: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--textColorBlue);
+        font-size: 1rem;
+        margin-top: 0.8rem;
+       
+        margin-bottom: 1rem;
+        background: transparent;
+        border: 1px solid var(--textColorBlue);
+        outline: none;
+        border-radius: 10px;   
+           
+      }
+    .ticketbtn:hover{
+        background-color: var(--textColorPink);
+        cursor: pointer;
+    }
+    /* === Style to resize the video for event ==== */
+    .player-wrapper {
+        position: relative;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+      }
+    /* === Style to resize the video for event ==== */
+      .react-player {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+   
 }
 
 
@@ -623,6 +977,75 @@
        max-height: 100%;
     
     }
+ /* ==== style for video play for event === */
+ .grandchildBody1RightMRA {
+    margin-top: 5rem; 
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.h1VideoTop{
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--textColorBlue);
+    font-size: 2rem;
+
+}
+
+.pVideoTop{
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: var(--textColorBlue);
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.ticketbtn{
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--textColorBlue);
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    background: transparent;
+    border: 1px solid var(--textColorBlue);
+    outline: none;
+    border-radius: 10px;      
+  }
+.ticketbtn:hover{
+    background-color: var(--textColorPink);
+    cursor: pointer;
+}
+/* === Style to resize the video for event ==== */
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+  }
+/* === Style to resize the video for event ==== */
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
 

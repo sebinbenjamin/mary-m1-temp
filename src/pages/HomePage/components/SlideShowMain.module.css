@@ -9,7 +9,7 @@
   background-color: var(--backColorBlue);
   color: var(--backColorWhite);
   position: absolute;
-  margin-top: 43rem;
+  margin-top: 2rem;
  }
  /* ==== left side photos === */
 
@@ -142,7 +142,7 @@ max-width: 100%;
   background-color: var(--backColorBlue);
   color: var(--backColorWhite);
   position: absolute;
-  margin-top: 43rem;
+  margin-top: 2rem;
  }
  /* ==== left side photos === */
 
@@ -276,7 +276,7 @@ max-width: 100%;
   background-color: var(--backColorBlue);
   color: var(--backColorWhite);
   position: absolute;
-  margin-top: 62rem;
+  margin-top: 2rem;
  }
  /* ==== left side photos === */
 
@@ -412,7 +412,7 @@ max-width: 100%;
    background-color: var(--backColorBlue);
    color: var(--backColorWhite);
    position: absolute;
-   margin-top: 60rem;
+   margin-top: 2rem;
    justify-content: center;
 
   }
@@ -536,7 +536,7 @@ max-width: 100%;
     background-color: var(--backColorBlue);
     color: var(--backColorWhite);
     position: absolute;
-    margin-top: 60rem;
+    margin-top: 2rem;
     justify-content: center;
  
    }
@@ -658,7 +658,7 @@ max-width: 100%;
    background-color: var(--backColorBlue);
    color: var(--backColorWhite);
    position: absolute;
-   margin-top: 3rem;
+   margin-top: 5rem;
    justify-content: center;
    
   }
@@ -784,7 +784,7 @@ max-width: 100%;
   background-color: var(--backColorBlue);
   color: var(--backColorWhite);
   flex-direction: row;
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 /* ==== left side photos === */
 .animation:hover{

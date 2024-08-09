@@ -11,12 +11,12 @@ import Advance from '../../../assets/help/help2.png'
 import Discruptive from '../../../assets/help/help3.png'
 import StakeHolders from '../../../assets/help/help4.png'
 
-// import HelpPhotos from '../components/HelpPhotos.jsx';
+import HelpPhotos from '../components/HelpPhotos.jsx';
 
 
 export default function help() {
   return (
-    // <div>
+    <div>
 
 <div className={styles.parentDivBody2MRA}>
        <h2 className={styles.childH2Body2MRA}>What can we help you find?</h2>
@@ -46,10 +46,10 @@ export default function help() {
  
 
 </div>
+{/* === FOR VIDEO PLAY IN FRONT PAGE ====*/}
+<div className={styles.grandchildBody1RightMRA} ><HelpPhotos /></div>
 
-// {/* <div ><HelpPhotos /></div> */}
 
-
-    // </div>
+    </div>
   )
 }

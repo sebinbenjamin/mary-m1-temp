@@ -12,7 +12,8 @@ import help_2 from '../../../assets/help/help2.png'
 import help_3 from '../../../assets/help/help3.png'
 import help_4 from '../../../assets/help/help4.png'
 
-
+// to import video from youtube
+import ReactPlayer from 'react-player';
 
 
 // === Import Css Style used === //
@@ -117,32 +118,44 @@ const HelpPhotos = ({Image}) => {
   // ==== to repeat images showing ==== 
   const repeatArray = Array.from({ length: 2 });
   return (
-    
+    <div>
+{/* to import video from youtube */}
+<div className="player-wrapper">
+  <h1 className={styles.h1VideoTop}>Brand Summit 2024</h1>
+  <p className={styles.pVideoTop} >Brand Summit is back for a second year and is happening this September at Grand Millennium! You will have the opportunity to gain valuable inspiration and practical insights and network with like-minded professionals</p>
+  <button className={styles.ticketbtn}>Get Ticket Now</button>
+
+
+    <ReactPlayer className="react-player" url="https://www.youtube.com/watch?v=6SSmO0lN5Hk" width="100%"
+       height="500px" />
+  </div>
+
+    </div>
       
     // == function for images show == //
-    <div className={styles.gridcontainer} >
-      {repeatArray.map((_,repeatIndex) => (
-<div key={repeatIndex}>
-<div className={styles.gridcontainer} >
+//     <div className={styles.gridcontainer} >
+//       {repeatArray.map((_,repeatIndex) => (
+// <div key={repeatIndex}>
+// <div className={styles.gridcontainer} >
               
-{Images.map((Image, index)=> (
-            <div key={index}>
-             <div style={{ ...divStyle, 'backgroundImage': `url(${Image.url})` }}>
+// {Images.map((Image, index)=> (
+//             <div key={index}>
+//              <div style={{ ...divStyle, 'backgroundImage': `url(${Image.url})` }}>
             
-             {textArray.map((text, index) => (
-        <p className={styles.imgText} key={index}>{text}</p>
-            ))}
+//              {textArray.map((text, index) => (
+//         <p className={styles.imgText} key={index}>{text}</p>
+//             ))}
 
-            </div>
-            </div> 
-          ))} 
+//             </div>
+//             </div> 
+//           ))} 
 
 
-</div>
-</div>
-      ))}
+// </div>
+// </div>
+//       ))}
        
-       </div>
+//        </div>
     
     
   )
