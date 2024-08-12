@@ -17,13 +17,14 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 ### npm install or npm i
 
-- 3. And then Install library:
+- 3. And then Install library and Extention:
 
 ### npm install react-router-dom 
 ### npm install use-resize-observer --save-dev
 ### npm install react-slideshow-image -S
 ### npm install react-player
 ### npm install react-icons
+### npm install sfdx-cli --global
 
 
 - 4 . Runs the app in the development mode:

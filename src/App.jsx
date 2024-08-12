@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <Routes>
+     <Route path='/' element={<Home />} />
      <Route path='/marketing-association.nz' element={<Home />} />
       </Routes>
     </>
