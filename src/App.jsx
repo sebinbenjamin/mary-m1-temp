@@ -8,10 +8,9 @@ function App() {
 
   return (
     <>
-      <Routes>
+ <Routes>
      <Route path='/' element={<Home />} />
-{/*      <Route path='/marketing-association.nz' element={<Home />} /> */}
-      </Routes>
+ </Routes>
     </>
   )
 }
