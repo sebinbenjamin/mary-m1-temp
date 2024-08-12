@@ -10,17 +10,12 @@ import Partners from '../pages/HomePage/components/Partners.jsx';
 export default function Home() {
   return (
     <div>
-
 <NavBar />
 <Hero />
 <Help />
 <Slide />
 <Partners />
-
-
 <Footer />
-
-
     </div>
   )
 }
